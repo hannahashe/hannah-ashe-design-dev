@@ -1,3 +1,19 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Inter Tight", sans-serif;
+}
+/* Body */
+p {
+  font-family: "Source Sans 3", sans-serif;
+}
+
 /* Global Variables */
 body {
   font-family: "Arial", sans-serif;
