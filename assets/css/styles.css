@@ -1,6 +1,18 @@
 /* Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+
+/* Colour Pallet */
+:root {
+  --dark-cyan: #6b9797ff;
+  --floral-white: #f8f4e8ff;
+  --cherry-blossom: #ffb6c1ff;
+  --graphite: #333333ff;
+  --palm-leaf: #8a9a5bff;
+}
+
+/* Global Variables */
 /* Headings */
+
 h1,
 h2,
 h3,
@@ -8,16 +20,12 @@ h4,
 h5,
 h6 {
   font-family: "Inter Tight", sans-serif;
+  color: var(--palm-leaf);
 }
 
 /* Body */
-p {
-  font-family: "Source Sans 3", sans-serif;
-}
-
-/* Global Variables */
 body {
-  font-family: "Arial", sans-serif;
+  font-family: "Source Sans 3", sans-serif;
   background-color: var(--floral-white);
   color: var(--graphite);
   margin: 0;
@@ -31,13 +39,4 @@ body {
   padding: 16px;
   margin: 16px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* Colour Pallet */
-:root {
-  --dark-cyan: #6b9797ff;
-  --floral-white: #f8f4e8ff;
-  --cherry-blossom: #ffb6c1ff;
-  --graphite: #333333ff;
-  --palm-leaf: #8a9a5bff;
 }
