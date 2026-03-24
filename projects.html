@@ -16,29 +16,36 @@
   </head>
   <body>
     <main>
+      <!-- Navigation & Header -->
       <header>
-        <!-- Bootstrap Responsive Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container">
-            <a class="navbar-brand" href="index.html">Hannah Ashe</a>
+        <!-- Responsive Bootstrap 6 Navbar center aligned -->
+        <nav class="navbar navbar-expand-lg bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">HA</a>
             <button
               class="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
             >
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
+            <div
+              class="collapse navbar-collapse justify-content-center"
+              id="navbarNav"
+            >
+              <ul class="navbar-nav w-100 justify-content-evenly nav-underline">
                 <li class="nav-item">
-                  <a class="nav-link" href="about.html">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="projects.html">Projects</a>
+                  <a class="nav-link" href="projects.html">Projects</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="visualwork.html">Visual Work</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="contact.html">Contact</a>
