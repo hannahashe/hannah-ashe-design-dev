@@ -20,7 +20,7 @@ h4,
 h5,
 h6 {
   font-family: "Inter Tight", sans-serif;
-  color: var(--palm-leaf);
+  color: var(--graphite);
 }
 
 /* Body */
@@ -39,4 +39,74 @@ body {
   padding: 16px;
   margin: 16px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  background: var(--floral-white) !important;
+}
+.navbar .nav-link {
+  color: var(--graphite) !important;
+  text-transform: lowercase !important;
+}
+.navbar .nav-link:hover {
+  color: var(--palm-leaf) !important;
+  transition: ease-in-out 0.3s;
+}
+
+#hero {
+  background-color: var(--floral-white);
+  background-image: url(../images/hero1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero h2 {
+  margin-bottom: 20px;
+  color: var(--floral-white);
+}
+
+#hero p {
+  margin-bottom: 30px;
+  color: var(--floral-white);
+}
+
+#hero-overlay {
+  padding: 20px;
+  border-radius: 1px;
+  border: 2px solid var(--floral-white);
+}
+
+.btn-custom-primary {
+  background-color: var(--floral-white);
+  color: var(--palm-leaf);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.btn-custom-primary:hover {
+  background-color: var(--palm-leaf);
+  color: var(--floral-white);
+  transition: ease-in-out 0.3s;
+}
+
+.btn-custom-secondary {
+  background-color: var(--palm-leaf);
+  color: var(--floral-white);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.btn-custom-secondary:hover {
+  background-color: var(--floral-white);
+  color: var(--palm-leaf);
+  transition: ease-in-out 0.3s;
 }
