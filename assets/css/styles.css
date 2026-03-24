@@ -1,3 +1,17 @@
-/* Custom Styles */
+/* Global Variables */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: var(--floral-white);
+  color: var(--graphite);
+  margin: 0;
+  padding: 0;
+}
 
 /* Colour Pallet */
+:root {
+  --dark-cyan: #6b9797ff;
+  --floral-white: #f8f4e8ff;
+  --cherry-blossom: #ffb6c1ff;
+  --graphite: #333333ff;
+  --palm-leaf: #8a9a5bff;
+}
