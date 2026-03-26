@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
 
 /* Bootstrap Grid Outlines for debugging */
-.container {
+/* .container {
   border: 1px solid #dc3545;
 }
 .row {
@@ -70,7 +70,7 @@
 .col-xl-11,
 .col-xl-12 {
   border: 1px solid #007bff;
-}
+} */
 
 /* Colour Pallet */
 :root {
@@ -79,6 +79,7 @@
   --cherry-blossom: #ffb6c1ff;
   --graphite: #333333ff;
   --palm-leaf: #8a9a5bff;
+  --background-gradient: linear-gradient(135deg, #f8f4e8ff, #8a9a5bff);
 }
 
 /* Global Variables */
@@ -141,6 +142,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  opacity: 0.9;
 }
 
 #hero h2 {
@@ -164,10 +166,11 @@ body {
 .card {
   background-color: var(--floral-white);
   border: 1px solid var(--graphite);
-  border-radius: 8px;
-  padding: 16px;
-  margin: 16px;
+  border-radius: 3px;
+  padding: 5px;
+  margin: 5px;
   box-shadow: 0 4px 8px rgba(132, 183, 135, 0.324);
+  min-height: 500px;
 }
 
 /* Buttons */
@@ -202,6 +205,36 @@ body {
   transition: ease-in-out 0.3s;
 }
 
+.btn-custom-project {
+  background-color: none;
+  color: var(--palm-leaf);
+  border: 2px solid var(--palm-leaf);
+  padding: 10px 20px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.btn-custom-project:hover {
+  background-color: var(--palm-leaf);
+  color: var(--floral-white);
+  transition: ease-in-out 0.3s;
+}
+
+.btn-custom-live-link {
+  background-color: none;
+  color: var(--palm-leaf);
+  border: 2px solid var(--palm-leaf);
+  padding: 10px 20px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.btn-custom-live-link:hover {
+  background-color: var(--palm-leaf);
+  color: var(--floral-white);
+  transition: ease-in-out 0.3s;
+}
+
 /* Sections */
 
 section {
@@ -214,15 +247,15 @@ section h2 {
 
 /* Section dividers */
 
-section h2 {
+.heading-divider {
   align-items: center;
   display: flex;
   gap: 1rem;
   width: 100%;
 }
 
-section h2::before,
-section h2::after {
+.heading-divider::before,
+.heading-divider::after {
   content: "";
   display: block;
   height: 2px;
@@ -230,8 +263,12 @@ section h2::after {
   flex: 1;
 }
 
-section h2::first-line {
+.heading-divider::first-line {
   display: block;
   flex: 1;
   text-align: center;
+}
+
+#featured-projects {
+  background-image: var(--background-gradient);
 }
