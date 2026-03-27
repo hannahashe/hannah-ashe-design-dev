@@ -163,13 +163,12 @@ body {
 
 /* Cards */
 
-.card {
+.project-card {
   background-color: var(--floral-white);
   border: 1px solid var(--graphite);
   border-radius: 3px;
   padding: 5px;
   margin: 5px;
-  min-height: 200px;
   box-shadow: 0 4px 8px rgba(132, 183, 135, 0.324);
   object-fit: cover;
 }
@@ -279,8 +278,8 @@ section h2 {
 } */
 
 /* Media Queries */
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .card {
     min-height: 525px;
   }
-}
+} */
