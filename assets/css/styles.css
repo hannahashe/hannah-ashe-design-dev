@@ -169,8 +169,9 @@ body {
   border-radius: 3px;
   padding: 5px;
   margin: 5px;
+  min-height: 200px;
   box-shadow: 0 4px 8px rgba(132, 183, 135, 0.324);
-  min-height: 500px;
+  object-fit: cover;
 }
 
 /* Buttons */
@@ -269,5 +270,17 @@ section h2 {
   text-align: center;
 }
 
-#featured-projects {
+/* Sections */
+
+/* section {
+  padding: 1rem 0;
+  margin: 0 5rem;
+  width: auto;
+} */
+
+/* Media Queries */
+@media (min-width: 768px) {
+  .card {
+    min-height: 525px;
+  }
 }
